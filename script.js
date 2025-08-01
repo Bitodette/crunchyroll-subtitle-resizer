@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Crunchyroll Subtitle Resizer
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Adjusts the subtitle size on Crunchyroll's 
 // @author       Bitodette
 // @homepageURL  https://github.com/Bitodette/crunchyroll-subtitle-resizer
@@ -47,22 +47,12 @@
 
     const cssCanvasResize = `
         #velocity-canvas {
-            /* * This scales the canvas element where subtitles are rendered.
-             * It's the core of how the size is changed.
-            */
             transform: scale(${SUBTITLE_SCALE}) !important;
 
-            /* * This sets the anchor point for scaling to the bottom-center of the canvas.
-             * This ensures subtitles scale towards the middle instead of flying off-screen.
-            */
             transform-origin: bottom center !important;
 
-            /* * Adjusts the final vertical position after scaling.
-            */
             bottom: ${VERTICAL_POSITION} !important;
 
-            /* * These rules ensure the canvas doesn't get clipped or distorted after scaling.
-            */
             width: 100% !important;
             height: 100% !important;
             object-fit: contain !important;

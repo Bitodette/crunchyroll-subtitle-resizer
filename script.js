@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         Crunchyroll Subtitle Resizer
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Adjusts the subtitle size on Crunchyroll's
+// @version      1.1
+// @description  Adjusts the subtitle size on Crunchyroll's 
 // @author       Bitodette
+// @homepageURL  https://github.com/Bitodette/crunchyroll-subtitle-resizer
+// @supportURL   https://github.com/Bitodette/crunchyroll-subtitle-resizer/issues
 // @match        *://*.crunchyroll.com/*
 // @match        *://static.crunchyroll.com/vilos-v2/web/vilos/player.html*
 // @grant        GM_addStyle

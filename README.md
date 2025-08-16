@@ -12,6 +12,7 @@
     <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer"><img src="https://img.shields.io/badge/GreasyFork-Install-orange?style=for-the-badge&logo=tampermonkey" alt="Install from GreasyFork"></a>
     <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer"><img src="https://img.shields.io/greasyfork/v/544244.svg?style=for-the-badge" alt="Greasy Fork Version"></a>
     <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer"><img src="https://img.shields.io/greasyfork/dt/544244.svg?style=for-the-badge" alt="Total Installs"></a>
+    <a href="https://github.com/Bitodette/crunchyroll-subtitle-resizer/stargazers"><img src="https://img.shields.io/github/stars/Bitodette/crunchyroll-subtitle-resizer.svg?style=for-the-badge" alt="Stargazers"></a>
   </p>
 </div>
 

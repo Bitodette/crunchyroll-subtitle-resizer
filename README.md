@@ -1,27 +1,62 @@
-# Crunchyroll Subtitle Resizer
+<div align="center">
+  <h1 align="center">Crunchyroll Subtitle Resizer</h1>
+  <p align="center">
+    A userscript to adjust the subtitle size on Crunchyroll's modern video player.
+  </p>
+  <p align="center">
+    <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer/feedback">Report Bug</a>
+    ·
+    <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer/feedback">Request Feature</a>
+  </p>
+  <p align="center">
+    <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer"><img src="https://img.shields.io/badge/GreasyFork-Install-orange?style=for-the-badge&logo=tampermonkey" alt="Install from GreasyFork"></a>
+    <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer"><img src="https://img.shields.io/greasyfork/v/544244.svg?style=for-the-badge" alt="Greasy Fork Version"></a>
+    <a href="https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer"><img src="https://img.shields.io/greasyfork/dt/544244.svg?style=for-the-badge" alt="Total Installs"></a>
+  </p>
+</div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Greasy Fork Version](https://img.shields.io/greasyfork/v/544244.svg)](https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer)
+---
 
-A Tampermonkey userscript to adjust the subtitle size on Crunchyroll's modern video player.
+## About The Project
 
-This script works by scaling the `#velocity-canvas` element within the player's `iframe`. This is necessary because Crunchyroll's current player renders subtitles graphically, making them immune to standard CSS font-size modifications.
+**Crunchyroll Subtitle Resizer** is a Tampermonkey userscript designed to give you full control over the size and position of subtitles on Crunchyroll.
+
+This script works by scaling the `#velocity-canvas` element within the player's `iframe`. This is necessary because Crunchyroll's current player renders subtitles graphically, making them immune to standard CSS `font-size` modifications. The goal is to improve viewing comfort, especially on screens of varying sizes and resolutions.
+
+---
 
 ## Features
 
--   **Resize Subtitles**: Make subtitles smaller or larger to fit your screen.
+-   **Resize Subtitles**: Make subtitles smaller or larger to fit your screen and preference.
 -   **Adjust Vertical Position**: Fine-tune the vertical placement of subtitles.
 -   **Lightweight & Simple**: No unnecessary features, just focused on subtitle control.
 -   **Works on the Latest Player**: Compatible with the modern Crunchyroll video player.
 
-## Installation
+---
 
-1.  **Install a Userscript Manager**: You need a browser extension like [**Tampermonkey**](https://www.tampermonkey.net/) or Violentmonkey.
+## Getting Started
 
-2.  **Install the Script**:
-    -   **Click here to install from Greasy Fork**
+To get a local copy up and running, follow these simple steps.
 
-    A new tab will open in your userscript manager. Just click the **"Install"** button.
+### Prerequisites
+
+You need a user script manager browser extension. [**Tampermonkey**](https://tampermonkey.net/) is highly recommended.
+
+-   [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+-   [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+-   [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
+-   [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+
+### Installation
+
+1.  **Install the Userscript**
+    -   Click the "Install from GreasyFork" badge at the top of this README or visit the [**script page on Greasy Fork**](https://greasyfork.org/en/scripts/544244-crunchyroll-subtitle-resizer).
+    -   Tampermonkey will open a new tab. Click the `Install` button.
+
+2.  **Enjoy Full Control**
+    -   Navigate to any video on [Crunchyroll](https://www.crunchyroll.com/). The script will be active automatically, adjusting subtitles to your configured settings.
+
+---
 
 ## Customization
 
@@ -51,6 +86,12 @@ const VERTICAL_POSITION = "1%";
 
 After editing, press `Ctrl` + `S` to save, then refresh the Crunchyroll video page to see your changes.
 
-## License
+---
 
-This project is licensed under the MIT License.
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+Don't forget to give the project a star! Thanks again!
